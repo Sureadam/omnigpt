@@ -1137,7 +1137,7 @@ footer {
         flex-direction: column;
         position: static;
         width: 260px;
-        height: 315px;
+        height: fit-content;
         padding: 32px;
         gap: 26px;
         margin-top: -60px;
@@ -1158,7 +1158,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 64px;
-        margin: 344px 55px 95px 32px ;
+        margin: 144px 55px 95px 32px ;
     }
 
     .end img {
