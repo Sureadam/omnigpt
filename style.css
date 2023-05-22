@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    overflow: hidden;
+}
 .div {
     background: #111826;
     width: 100%;
