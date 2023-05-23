@@ -11,7 +11,11 @@
     background: #111826;
     width: 100%;
     padding: 65px 108px 0 108px;
+}
+
+body {
     overflow-x: hidden;
+    width: 100%;
 }
 
 header {
@@ -595,6 +599,25 @@ footer {
     border-radius: 10px;
 }
 
+.action{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #241c4e;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.action:hover {
+    scale: 1.05;
+}
+.navbar-links .action {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navbar-links {
     display: none;
     position: absolute;
@@ -647,16 +670,20 @@ footer {
         flex-wrap: wrap-reverse;
         align-items: center;
         justify-content: center;
+        width: 100%;
      }
 
      .sect1 {
         width: 100%;
-        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
      }
 
      .sect-two {
         width: 100%;
         padding-left: 0;
+        justify-content: center;
+        align-items: center;
      }
      .section-two, .section-three, .section-four {
         display: none;
@@ -718,16 +745,23 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         height: fit-content;
+        justify-content: center;
+        align-items: center;
         gap: 119px;
     }
 
 
     .part-one {
-        width: 100%;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .part-two {
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .card {
@@ -754,9 +788,7 @@ footer {
         font-size: 20px;
     }
 
-    .part-one {
-        margin-left: 55px;
-    }
+    
     
     aside {
         margin-bottom: 347px;
@@ -809,8 +841,11 @@ footer {
         height: fit-content;
         margin-bottom: 0;
         border: 1px solid transparent;
+        overflow-x: hidden;
     }
-
+    body {
+        overflow-x: hidden;
+    }
     
     .menu {
         display: none;
@@ -838,17 +873,21 @@ footer {
         align-items: center;
         justify-content: center;
         margin-top: 125px;
+        width: 100%;
      }
 
      .sect1 {
         width: 100%;
         margin-top: 20px;
-        align-self: center;
+        align-items: center;
+        justify-content: center;
      }
 
      .sect-two {
         width: 100%;
         padding-left: 0;
+        justify-content: center;
+        align-items: center;
      }
      .section-two, .section-three, .section-four {
         display: none;
@@ -856,7 +895,6 @@ footer {
 
      .first p {
         font-size: 36px;
-        width: 276px;
         line-height: 44.42px;
         width: 276px;
      }
@@ -883,19 +921,28 @@ footer {
         display: block;
         font-size: 26px;
         line-height: 35.1px;
+        text-align: center;
     }
 
     .second p:nth-child(3) {
         font-size: 16px;
         font-weight: 400;
         line-height: 21.6px;
-        width: 262px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .thrd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .thrd p {
         font-size: 20px;
         font-weight: 500;
-        width: 238px;
+        text-align: center;
         line-height: 27px;
     }
 
@@ -934,30 +981,39 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         height: fit-content;
+        justify-content: center;
+        align-items: center;
         gap: 119px;
     }
 
 
     .part-one {
-        width: 100%;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
     }
 
     .part-two {
         width: 100%;
+        
     }
 
-    
-
+    .all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .all p {
         font-size: 36px;
         line-height: 44.42px;
-        width: 259px;
+        width: 100%;
     }
 
     .card {
         width: 100%;
         padding: 33px 21px;
-        height: 212px;
+        height: fit-content;
         
     }
     
@@ -972,7 +1028,7 @@ footer {
 
     #first p:nth-child(2) {
         font-size: 18px;
-        width: 210px;
+        width: 100%;
        
     }
 
@@ -984,11 +1040,9 @@ footer {
         width: 100%;
         font-size: 20px;
         padding: 30px 25px;
+        text-align: center;
     }
 
-    .part-one {
-        margin-left: 55px;
-    }
 
     .part-one img:nth-child(2) {
         border-radius: 32px;
@@ -1028,10 +1082,7 @@ footer {
         z-index: 3;
         
     }
-    .part-one {
-        position: relative;
-        width: 50%;
-    }
+    
     .shape{
         background: #FEEA00;
         border-radius: 0px 58px 58px 58px;
@@ -1148,6 +1199,9 @@ footer {
 
     .lorems{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .lorems p {
@@ -1155,7 +1209,9 @@ footer {
         width: 134px;
     }
     .another-lorem p:first-child {
-        width: 324px;
+        width: 100%;
     }
-    
+    .geng {
+        align-self: center;
+    }
 }
